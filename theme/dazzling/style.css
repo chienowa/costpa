@@ -270,7 +270,11 @@ textarea {
   margin: 0 0 1.5em;
 }
 #content {
+<<<<<<< HEAD
   margin-top: 5px;
+=======
+  margin-top: 40px;
+>>>>>>> 37b140b9fdde94693b63b6ca84ee33a58818be2c
   margin-bottom: 40px;
 }
 /* =Post styling
@@ -990,7 +994,6 @@ p.logged-in-as {
 .cfa-button:hover a {
     color: #1FA67A;
 }
-
 
 .photo {
     margin-top:15px;
