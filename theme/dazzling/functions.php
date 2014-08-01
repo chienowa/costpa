@@ -238,4 +238,4 @@ require get_template_directory() . '/inc/woo-setup.php';
 }
 
 // <br>の自動挿入をoff にする
-remove_filter('the_content', 'wpautop');
+// remove_filter('the_content', 'wpautop');

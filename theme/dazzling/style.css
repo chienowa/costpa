@@ -270,11 +270,7 @@ textarea {
   margin: 0 0 1.5em;
 }
 #content {
-<<<<<<< HEAD
   margin-top: 5px;
-=======
-  margin-top: 40px;
->>>>>>> 37b140b9fdde94693b63b6ca84ee33a58818be2c
   margin-bottom: 40px;
 }
 /* =Post styling
@@ -323,8 +319,8 @@ textarea {
 }
 hr.section-divider {
   border-color: #E8E8E8;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 /* =Singe Post/Page Pagination
@@ -995,6 +991,7 @@ p.logged-in-as {
     color: #1FA67A;
 }
 
+
 .photo {
     margin-top:15px;
     margin-bottom:20px;
@@ -1002,3 +999,8 @@ p.logged-in-as {
 .photo a {
     margin:5px;
 }
+
+.googlemap {
+    margin-bottom:20px;
+}
+

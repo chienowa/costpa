@@ -14,8 +14,19 @@ get_header(); ?>
 
 			<?php get_template_part( 'content', 'single' ); ?>
 
-			<?php dazzling_post_nav(); ?>
 
+<!-- START OF MAP -->		
+<?php
+$location = get_field('map');
+if( ! empty($location) ):
+?>
+<?php get_template_part( 'googlemap', 'single' ); ?>
+<?php endif; ?> 
+
+<!--  END OF MAP-->
+
+
+			<?php dazzling_post_nav(); ?>
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template
 				if ( comments_open() || '0' != get_comments_number() ) :
