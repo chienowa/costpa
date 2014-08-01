@@ -270,7 +270,7 @@ textarea {
   margin: 0 0 1.5em;
 }
 #content {
-  margin-top: 40px;
+  margin-top: 5px;
   margin-bottom: 40px;
 }
 /* =Post styling
@@ -989,4 +989,13 @@ p.logged-in-as {
 }
 .cfa-button:hover a {
     color: #1FA67A;
+}
+
+
+.photo {
+    margin-top:15px;
+    margin-bottom:20px;
+}
+.photo a {
+    margin:5px;
 }

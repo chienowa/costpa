@@ -44,7 +44,7 @@
 				<?php if( get_header_image() != '' ) : ?>
 
 					<div id="logo">
-						<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php header_image(); ?>"  height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="<?php bloginfo( 'name' ); ?>"/></a>
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo  str_replace("cropped-","",get_header_image()); ?>" width="260" alt="<?php bloginfo( 'name' ); ?>"/></a>
 					</div><!-- end of #logo -->
 
 				<?php endif; // header image was removed ?>
