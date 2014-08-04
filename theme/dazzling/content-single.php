@@ -16,6 +16,8 @@
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
+	<?php adsensem_ad('meduim_banner'); ?>
+
 	<div class="entry-content">
 		<?php the_content(); ?>
 		<?php
@@ -29,6 +31,8 @@
        		) );
     	?>
 	</div><!-- .entry-content -->
+
+	<?php adsensem_ad('meduim_banner'); ?>
 
 	<footer class="entry-meta">
 		<?php
